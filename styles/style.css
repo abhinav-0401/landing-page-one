@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+    
+    font-family: Ubuntu, "Noto Sans", "Helvetica", "Segoe UI", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 100px 50px 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+header .links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+
+    padding: 30px 100px 50px 100px;
+    background-color: #1F2937;
+    color: white;    
+}
+
+.intro button {
+    margin-top: 10px;
+}
+
+.intro img {
+    width: 300px;
+    height: 200px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 80px 80px 80px 80px;
+}
+
+.random-info .illustrations-group {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.random-info .illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.random-info .description {
+    width: 175px;
+}
+
+.random-info .illustration img {
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+}
+
+.action-call-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 200px;
+    padding: 50px 70px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+.action-call-card .right-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-call-card .left-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-card h3{
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    box-sizing: border-box;
+    min-width: 80px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
